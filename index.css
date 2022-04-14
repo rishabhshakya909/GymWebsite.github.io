@@ -1,0 +1,78 @@
+
+body{
+    margin: 0px;
+    padding:0px;
+    background: url('images/adult-1850925_1280.jpg');
+}
+.left{
+    position:absolute;
+    left:34px;
+    top:6px;
+    color:white;
+    display:inline-block;
+}
+.left img{
+    width:58px;
+    filter:invert(100%);
+}
+.mid{
+    padding-top: -3px;
+    margin:12px auto;
+    color:white;
+    display:block;
+    width:37%;
+}
+ul li a{
+    color:white;
+    text-decoration: none;
+}
+.right{
+    position:absolute;
+    right:34px;
+    top:18px;
+    color:white;
+    display:inline-block;
+}
+ul li{
+    margin:5px;
+    padding:2px;
+    display:inline-block;
+}
+.btn{
+    cursor:pointer;
+    padding:2px 4px;
+}
+.btn:hover{
+    background-color: rgb(172, 164, 164);
+}
+.container{
+    position:absolute;
+    right:34px;
+    top:80px;
+    border:2px solid white;
+    height:400px;
+    width:500px;
+    border-radius: 6px;
+}
+.container form{
+    padding-top:20px;
+}
+.container h1{
+    color:white;
+    text-align:center;
+}
+.formgroup input{
+    display:block;
+    padding:1px;
+    height:23px;
+    margin:21px auto;
+    text-align:center;
+    width:400px;
+}
+.container form button{
+    display:block;
+    margin:auto;
+    width:90px;
+    padding:1px;
+    height:23px;
+}
